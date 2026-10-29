@@ -1,0 +1,2 @@
+import ModulePage from "@/components/ModulePage";
+export default function Page(){return <ModulePage config={{endpoint:"/security-events",title:"Xavfsizlik va audit jurnali",description:"Super Admin uchun kirish hodisalari, ruxsat o‘zgarishlari va muhim amallar birlashtirilgan jurnali.",columns:[{key:"id",label:"Jurnal ID"},{key:"created_at",label:"Vaqt"},{key:"actor",label:"Actor ID"},{key:"event_type",label:"Hodisa"},{key:"severity",label:"Daraja"},{key:"entity_type",label:"Obyekt"},{key:"details",label:"Tafsilot"},{key:"ip_address",label:"IP"}]}}/>}

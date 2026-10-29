@@ -1,0 +1,2 @@
+import ModulePage from "@/components/ModulePage";
+export default function Page(){return <ModulePage config={{endpoint:'/attendance',title:'Davomat',description:'Ofis va masofaviy ish davomat yozuvlari; o‘z davomatini boshlash/tugatish mumkin.',columns:[{key:'id',label:'ID'},{key:'employee_id',label:'Xodim ID'},{key:'work_date',label:'Sana'},{key:'started_at',label:'Boshlangan'},{key:'finished_at',label:'Tugagan'},{key:'mode',label:'Ish turi'},{key:'note',label:'Izoh'}],action:'attendance'}}/>}

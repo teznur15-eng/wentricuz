@@ -1,0 +1,1 @@
+import AppShell from "@/components/AppShell";export default function DashboardLayout({children}:{children:React.ReactNode}){return <AppShell title="Wentric boshqaruv paneli" subtitle="Ichki operatsiyalar">{children}</AppShell>}

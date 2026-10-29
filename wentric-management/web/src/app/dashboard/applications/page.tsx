@@ -1,0 +1,2 @@
+import ModulePage from "@/components/ModulePage";
+export default function Page(){return <ModulePage config={{endpoint:"/applications",title:"Xodimlik arizalari",description:"Xodimlik arizalarini ko‘rish, tasdiqlash yoki rad etish.",columns:[{key:"id",label:"ID"},{key:"full_name",label:"F.I.Sh."},{key:"telegram_id",label:"Telegram ID"},{key:"department",label:"Bo‘lim"},{key:"desired_position",label:"Lavozim"},{key:"message",label:"Izoh"},{key:"status",label:"Holat"},{key:"created_at",label:"Sana"}],action:"applications"}}/>}

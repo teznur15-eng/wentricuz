@@ -1,0 +1,2 @@
+import ModulePage from "@/components/ModulePage";
+export default function Page(){return <ModulePage config={{endpoint:'/notifications',title:'Bildirishnomalar',description:'Vazifa, deadline, ruxsat va boshqa shaxsiy bildirishnomalar.',columns:[{key:'id',label:'ID'},{key:'title',label:'Sarlavha'},{key:'body',label:'Xabar'},{key:'kind',label:'Turi'},{key:'read_at',label:'O‘qilgan vaqti'},{key:'created_at',label:'Sana'}],action:'notifications'}}/>}

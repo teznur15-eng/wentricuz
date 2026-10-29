@@ -1,0 +1,13 @@
+.env
+.env.local
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+.next/
+backups/
+backend/storage/*
+!backend/storage/.gitkeep
+*.log

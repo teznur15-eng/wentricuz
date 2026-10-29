@@ -1,0 +1,2 @@
+import ModulePage from "@/components/ModulePage";
+export default function Page(){return <ModulePage config={{endpoint:'/files',title:'Fayllar',description:'Hujjat va fayllarni xususiy lokal omborga yuklash va ruxsat doirasida yuklab olish.',columns:[{key:'id',label:'ID'},{key:'original_name',label:'Fayl'},{key:'content_type',label:'Turi'},{key:'size_bytes',label:'Hajm (bayt)'},{key:'uploaded_by_id',label:'Yuklovchi ID'},{key:'created_at',label:'Sana'}],action:'files'}}/>}
